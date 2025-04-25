@@ -1,0 +1,37 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: none;
+    border: none;
+
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:dashed red 1px; 
+    padding-left: 54px;
+    padding-right: 100px;
+background-color: aqua;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    gap: 75px;
+
+
+
+}
+nav>a{
+    color: black;
+}
+.account-buttons{
+    display: flex;
+    padding-right: 100px;
+    gap: 45px;
+}
